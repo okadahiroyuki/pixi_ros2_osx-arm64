@@ -38,3 +38,13 @@ python webcam_publisher.py
 ros2 topic list
 ros2 topic echo /webcam/image_raw
 ```
+
+### /image_raw の可視化
+```
+ros2 run rqt_image_view rqt_image_view
+```
+あるいは
+```
+rviz2
+```
+
