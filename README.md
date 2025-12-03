@@ -48,3 +48,8 @@ ros2 run rqt_image_view rqt_image_view
 rviz2
 ```
 
+## EdgeYOLO-ROS
+https://github.com/fateshelled/EdgeYOLO-ROS
+
+
+
