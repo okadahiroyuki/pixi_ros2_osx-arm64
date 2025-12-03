@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>webcam_image_publisher</name>
+  <version>0.0.1</version>
+  <description>Simple webcam image publisher for macOS (osx-arm64)</description>
+
+  <maintainer email="okdhryk@gmail.com">Hiroyuki Okada</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <!-- camera_info用 -->
+  <depend>builtin_interfaces</depend>
+
+  <!-- launch から使う -->
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
