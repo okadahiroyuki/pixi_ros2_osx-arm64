@@ -1,6 +1,7 @@
 # macOS arm64でPixiを使ってROS2を動かす
 pixi_ros2_osx-arm64
 
+test
 
 ## 環境
 - Apple M2 Max
